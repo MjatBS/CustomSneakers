@@ -1,0 +1,23 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:xs="http://www.w3.org/1999/XSL/Transform">
+
+    <xsl:template match="/">
+        <html>
+            <body>
+                <h1>Количество кросоовок</h1><xsl:value-of select="//product"/>
+                
+                        <div>
+                            <xsl:apply-templates select="//product"/></div>
+            </body>
+        </html>
+    </xsl:template>
+    <xs:template match="product">
+        <p></p>
+            <p>Название:<xsl:value-of select="title"/></p>
+            <p><img src="{image}"></img></p>
+            <p>Автор:<xsl:value-of select="artist"/></p>
+            <p>Цена:<xsl:value-of select="price"/></p>
+    </xs:template>
+    
+
+</xsl:stylesheet>
