@@ -1,0 +1,15 @@
+<?xml version=”1.0″ encoding=”UTF-8″?>
+<artists>
+    <artist name="Tony">
+	    <works>
+		    <work title="airforce"/>
+			<work title="life is anime"/>
+	    </works>
+	</artist>
+	<artist name="TTG">
+	    <works>
+		    <work title="longest way in out life"/>
+	    </works>
+	</artist>
+</artists>
+	

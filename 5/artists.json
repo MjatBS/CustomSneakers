@@ -1,0 +1,18 @@
+{
+    "artists":[
+	    "artist":[
+		    "name":"David",
+			"works":[
+			    "title":"sky",
+				"title":"working"
+			]
+		],
+		"artist":[
+		    "name":"XCom",
+			"works":[
+			    "title":"moon",
+				"title":"loon"
+			]
+		]
+	]
+}
